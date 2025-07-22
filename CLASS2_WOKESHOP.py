@@ -1,5 +1,7 @@
 def f3(x):
-    if 5<=x<=50:
+    if   5<x :
+        print("ไม่ส่ง")
+    elif 5<=x<=50:
         print("10")
     elif 51<=x<=100:
         print("15")    
