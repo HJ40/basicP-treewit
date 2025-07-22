@@ -1,14 +1,14 @@
-def f3(x):
-    if   5<x :
+x=int(input())
+
+if   5>x :
         print("ไม่ส่ง")
-    elif 5<=x<=50:
+elif 5<=x<=50:
         print("10")
-    elif 51<=x<=100:
+elif 51<=x<=100:
         print("15")    
-    elif 101<=x<=300:
+elif 101<=x<=300:
         print("25")  
-    elif 301<=x<=500:
+elif 301<=x<=500:
         print("35")  
-    elif x>=500:
+elif x>=500:
         print("45")  
-print(f3(35))
