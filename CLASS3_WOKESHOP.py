@@ -6,20 +6,21 @@ Monster=60 # HP 60
 while True:
 
   print(" เจอมอนส!! ทำไงดี! ")
-  print("1.จัดเลย")
-  print("2.บิดคับ")
+  print("1. จัดเลย ")
+  print("2. บิดคับ ")
   choice = int(input())
   if choice == 1 : 
-     print("ซักกี่รอบดี!?")
+     print("เราจำเป็นต้องกำหนดว่าจะจัดกี่ครั้ง")
      time =  int(input("จัดกี่รอบดี???"))
-     for i in range()
-     
-     
      print("เรียกอาวุธ!!!", "1.ดาบโก้ๆกังๆ" , "2.ปืนใหญ่บางระจัน", "3.หนังกะติกยิงมะม่วง")
+     อาวุธที่ใช้ = int(input())
+     print 
+    
     
   elif choice == 2 : 
      print("บิดโหด โดดหนี!!")
      break
+  
 
 
 
